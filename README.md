@@ -44,14 +44,15 @@ src/
 ├── styles/        
 └── types/         
 ```
-**Instalasi depensi next.js**
-```bash
-npm run build
-```
 
 **Instalasi Node Module**
 ```bash
 npm install
+```
+
+**Instalasi depensi next.js**
+```bash
+npm run build
 ```
 
 **Running localhost**
