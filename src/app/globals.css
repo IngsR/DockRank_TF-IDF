@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 220 40% 100%; /* White */
+    --foreground: 220 14% 17%; /* Dark Gray */
+    --card: 220 40% 100%; /* White */
+    --card-foreground: 220 14% 17%; /* Dark Gray */
+    --popover: 220 40% 100%; /* White */
+    --popover-foreground: 220 14% 17%; /* Dark Gray */
+    --primary: 220 53% 35%;  /* Blue Navy */
+    --primary-foreground: 220 40% 100%; /* White */
+    --secondary: 220 53% 35%;  /* Blue Navy */
+    --secondary-foreground: 220 40% 100%; /* White */
+    --muted: 220 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 220 43% 45%;  /* Light Blue */
+    --accent-foreground: 220 40% 100%; /* White */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 220 40% 100%; /* White */
+    --border: 220 32.6% 17.5%;
+    --input: 220 32.6% 17.5%;
+    --ring: 220 32.6% 17.5%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 40% 3.9%;
+    --foreground: 220 40% 98%;
+    --card: 220 40% 3.9%;
+    --card-foreground: 220 40% 98%;
+    --popover: 220 40% 3.9%;
+    --popover-foreground: 220 40% 98%;
+    --primary: 220 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 220 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 220 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 220 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 217.2 32.6% 17.5%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+@keyframes subtle-pulse {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+.subtle-pulse {
+  animation: subtle-pulse 2s infinite;
+}
+
+.header-link {
+  position: relative;
+  display: inline-block;
+}
+
+.header-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Ensure the animation is smooth even if the app theme changes */
+@media (prefers-reduced-motion: no-preference) {
+  .header-link::after {
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+}
