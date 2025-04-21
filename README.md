@@ -1,5 +1,69 @@
-# Firebase Studio
+# 📄 Project TF-IDF Pencarian Dokumen
 
-This is a NextJS starter in Firebase Studio.
+Aplikasi web sederhana berbasis **Next.js** dan **TypeScript** untuk melakukan pencarian dokumen menggunakan algoritma **TF-IDF (Term Frequency - Inverse Document Frequency)**.
 
-To get started, take a look at src/app/page.tsx.
+---
+
+## 🚀 Fitur Utama
+
+- Upload dokumen dengan judul dan isi 
+- TF-IDF untuk pencocokan keyword dengan dokumen
+- Sistem pencarian dokumen berdasarkan relevansi skor
+- Tampilan bersih dan responsif dengan Tailwind CSS
+- Dibuat dengan React (Next.js) + TypeScript
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+
+---
+
+## 🪪 License
+Proyek ini dilisensikan berdasarkan Lisensi MIT.
+Lihat LICENSE untuk informasi lebih lanjut.
+
+---
+## 📁 Struktur Direktori
+```bash
+src/
+├── app/
+│   ├── add-document/      
+│   ├── documents/      
+│   └── search/       
+├── components/           
+├── hooks/                
+├── lib/
+│   ├── tfidf.ts          
+│   └── utils.ts     
+├── styles/        
+└── types/         
+```
+**Instalasi depensi next.js**
+```bash
+npm run build
+```
+
+**Instalasi Node Module**
+```bash
+npm install
+```
+
+**Running localhost**
+```bash
+npm run dev
+```
+
+
+<div align="center">
+
+## 👨‍💻 Author Ikhwan Ramadhan, 2025
+
+</div>
+
+
