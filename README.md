@@ -22,6 +22,9 @@ Aplikasi web sederhana berbasis **Next.js** dan **TypeScript** untuk melakukan p
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
 
+## User Interface
+![MyDokumen UI](https://github.com/IngsR/DockRank_TF-IDF/screenshot/MyDokumen.png)
+
 
 ---
 ## 📁 Struktur Direktori
