@@ -12,7 +12,6 @@ Aplikasi web sederhana berbasis **Next.js** dan **TypeScript** untuk melakukan p
 - Tampilan bersih dan responsif dengan Tailwind CSS
 - Dibuat dengan React (Next.js) + TypeScript
 
----
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -21,9 +20,24 @@ Aplikasi web sederhana berbasis **Next.js** dan **TypeScript** untuk melakukan p
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
+  
 
-## User Interface
-![MyDokumen UI](https://github.com/IngsR/DockRank_TF-IDF/screenshot/MyDokumen.png)
+# User Interface
+
+<h2 align="center"><strong>Fitur Pencarian Dokumen</strong></h2>
+
+![MyDokumen UI](./screenshot/Pencarian.png)
+
+
+<h2 align="center"><strong>Formulir Penambahan Dokumen Baru</strong></h2
+
+![MyDokumen UI](./screenshot/TambahDokumen.png)
+
+
+<h2 align="center"><strong>Tampilan Daftar Dokumen</strong></h2>
+
+![MyDokumen UI](./screenshot/MyDokumen.png)
+
 
 
 ---
@@ -56,7 +70,6 @@ npm run build
 npm run dev
 ```
 
-## 🪪 License
 Proyek ini dilisensikan berdasarkan Lisensi MIT.
 Lihat LICENSE untuk informasi lebih lanjut.
 <div align="center">
