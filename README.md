@@ -22,11 +22,6 @@ Aplikasi web sederhana berbasis **Next.js** dan **TypeScript** untuk melakukan p
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
 
----
-
-## 🪪 License
-Proyek ini dilisensikan berdasarkan Lisensi MIT.
-Lihat LICENSE untuk informasi lebih lanjut.
 
 ---
 ## 📁 Struktur Direktori
@@ -58,8 +53,12 @@ npm run build
 npm run dev
 ```
 
-
+## 🪪 License
+Proyek ini dilisensikan berdasarkan Lisensi MIT.
+Lihat LICENSE untuk informasi lebih lanjut.
 <div align="center">
+
+---
 
 ## 👨‍💻 Author Ikhwan Ramadhan, 2025
 
