@@ -38,9 +38,7 @@ src/
 │   └── search/       
 ├── components/           
 ├── hooks/                
-├── lib/
-│   ├── tfidf.ts          
-│   └── utils.ts     
+├── lib/           
 ├── styles/        
 └── types/         
 ```
