@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+    web:
+        container_name: tfidf-app
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - '3000:3000'
+        environment:
+            NODE_ENV: production
+        volumes:
+            - .:/app
+            - /app/node_modules
+        restart: unless-stopped
+        working_dir: /app
+        command: npm start
+        networks:
+            - tfidf-network
+
+networks:
+    tfidf-network:
+        driver: bridge

@@ -87,7 +87,7 @@ Lihat LICENSE untuk informasi lebih lanjut.
 
 ---
 
-## 👨‍💻 Author Ikhwan Ramadhan, 2025
+## 👨‍💻 Author IngsR. Ikhwan Ramadhan, 2025
 
 </div>
 

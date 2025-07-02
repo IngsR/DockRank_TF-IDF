@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+Dockerfile
+.dockerignore
+.git
+.gitignore
+README.md
+*.log
+*.md
+.env*
+*.swp
+.vscode
+*.tsbuildinfo
+LICENSE
