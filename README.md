@@ -1,4 +1,4 @@
-# 📄 Project TF-IDF Pencarian Dokumen
+# 📄 Responsive Project TF-IDF Pencarian Dokumen
 
 **Website:** [https://tfidf.vercel.app](https://tfidf.vercel.app)
 
