@@ -1,16 +1,27 @@
 # 📄 Project TF-IDF Pencarian Dokumen
 
+**Website:** [https://tfidf.vercel.app](https://tfidf.vercel.app)
+
 Aplikasi web sederhana berbasis **Next.js** dan **TypeScript** untuk melakukan pencarian dokumen menggunakan algoritma **TF-IDF (Term Frequency - Inverse Document Frequency)**.
 
 ---
 
 ## 🚀 Fitur Utama 
 
-- Upload dokumen dengan judul dan isi 
-- TF-IDF untuk pencocokan keyword dengan dokumen
-- Sistem pencarian dokumen berdasarkan relevansi skor
-- Tampilan bersih dan responsif dengan Tailwind CSS
-- Dibuat dengan React (Next.js) + TypeScript
+- 📤 Upload dokumen lengkap dengan **judul dan isi**
+- 🔍 Pencarian dokumen menggunakan algoritma **TF-IDF**
+- 🧠 Peringkat hasil pencarian berdasarkan **skor relevansi**
+- 🎨 Antarmuka bersih dan responsif dengan **Tailwind CSS**
+- ⚙️ Dikembangkan menggunakan **React (Next.js)** dan **TypeScript**
+
+---
+
+## 🌐 Live Demo
+
+Silakan kunjungi aplikasi di:  
+👉 **[https://tfidf.vercel.app](https://tfidf.vercel.app)**
+
+---
 
 
 ## 🛠️ Teknologi yang Digunakan
