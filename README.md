@@ -78,7 +78,7 @@ npm run build
 
 **Running localhost**
 ```bash
-npm run dev
+npm start
 ```
 
 Proyek ini dilisensikan berdasarkan Lisensi MIT.
