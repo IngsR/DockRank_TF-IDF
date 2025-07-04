@@ -1,4 +1,6 @@
 # 📄 Responsive Project TF-IDF Pencarian Dokumen
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 **Website:** [https://tfidf.vercel.app](https://tfidf.vercel.app)
 
@@ -66,6 +68,22 @@ src/
 └── types/         
 ```
 
+---
+## Instalasi Melalui Docker Container  
+Pastikan Anda telah menginstal Docker dan Docker Compose di sistem Anda.
+
+```bash
+docker-compose up --build
+```
+
+---
+
+## Menjalankan Secara Manual (Tanpa Docker)
+
+```bash
+cd DockRank_TF-IDF
+```
+
 **Instalasi Node Module**
 ```bash
 npm install
@@ -80,10 +98,13 @@ npm run build
 ```bash
 npm start
 ```
+---
 
-Proyek ini dilisensikan berdasarkan Lisensi MIT.
-Lihat LICENSE untuk informasi lebih lanjut.
 <div align="center">
+<h2>📄 Lisensi</h2>
+Proyek ini dilisensikan di bawah 
+Lihat file LICENSE untuk informasi lebih lanjut. 
+[MIT License](./LICENSE). 
 
 ---
 
